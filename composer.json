@@ -1,0 +1,26 @@
+{
+    "name": "plain/kirby-editor",
+    "description": "A fully functional built-in file explorer for Kirby CMS",
+    "type": "kirby-plugin",
+    "license": "MIT",
+    "homepage": "https://plain-solutions.net/",
+    "version": "1.2.3",
+    "authors": [
+        {
+            "name": "Roman Gsponer",
+            "email": "kirby@plain-solutions.net"
+        }
+    ],
+    "require": {
+        "getkirby/composer-installer": "^1.1"
+    },
+    "extra": {
+        "title": "Editor"
+    },
+    "funding": [
+        {
+            "type": "PayPal",
+            "url": "https://www.paypal.com/donate/?hosted_button_id=YBXZWG7E6GMZQ"
+        }
+    ]
+}

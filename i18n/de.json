@@ -1,0 +1,20 @@
+{
+  "plain.editor.file.new": "Neue Datei",
+  "plain.editor.file.rename": "Neuer Dateiname",
+  "plain.editor.folder.empty": "Dieser Ordner ist leer",
+  "plain.editor.folder.new": "Neuer Ordner",
+  "plain.editor.modified": "Zuletzt geändert",
+  "plain.editor.notify.deprecated.submit": "Trotzdem speichern",
+  "plain.editor.notify.deprecated.text": "Ihre Bearbeitung basiert auf einer älteren Version. \nAuf dem Server ist bereits eine neuere Datei vorhanden.",
+  "plain.editor.notify.risk.desc": "Benutzen Sie es nur, wenn Sie wissen, was Sie tun!",
+  "plain.editor.notify.risk.submit": "Ich habe es verstanden",
+  "plain.editor.notify.risk.title": "Mit diesem Tool erhalten Sie Zugriff auf die gesamte Kirby-Instanz.",
+  "error.plain.editor.file.deleted": "Die Datei '{{name}}' konnte nicht gelöscht werden",
+  "error.plain.editor.file.exists": "Die Datei '{{name}}' existiert nicht",
+  "error.plain.editor.folder.deleted": "Der Ordner '{{name}}' konnte nicht gelöscht werden",
+  "error.plain.editor.folder.exists": "Der Ordner '{{name}}' existiert nicht",
+  "error.plain.editor.loading": "Fehler beim Laden: {{message}}",
+  "plain.editor.editor.label": "Editor",
+  "plain.editor.preview.label": "Vorschau",
+  "error.plain.editor.access": "Kein Zugriff"
+}

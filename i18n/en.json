@@ -1,0 +1,20 @@
+{
+  "error.plain.editor.access": "No access",
+  "error.plain.editor.folder.deleted": "The folder '{{name}}' could not be deleted",
+  "error.plain.editor.folder.exists": "The folder '{{name}}' doesn't exists",
+  "error.plain.editor.file.deleted": "The file '{{name}}' could not be deleted",
+  "error.plain.editor.file.exists": "The file '{{name}}' doesn't exists",
+  "error.plain.editor.loading": "Error while loading: {{message}}",
+  "plain.editor.modified": "Last modified",
+  "plain.editor.preview.label": "Preview",
+  "plain.editor.editor.label": "Editor",
+  "plain.editor.folder.empty": "This folder is empty",
+  "plain.editor.folder.new": "New Folder",
+  "plain.editor.file.rename": "New Filename",
+  "plain.editor.file.new": "New File",
+  "plain.editor.notify.deprecated.text": "Your edit is based on an older version. A more recent file already exists on the server.",
+  "plain.editor.notify.deprecated.submit": "Save anyway",
+  "plain.editor.notify.risk.title": "This tool gives you access to the entire Kirby instance.",
+  "plain.editor.notify.risk.desc": "Only use it if you know what you're doing!",
+  "plain.editor.notify.risk.submit": "I understand"
+}
