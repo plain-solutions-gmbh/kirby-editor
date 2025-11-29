@@ -9,6 +9,7 @@ import PreviewFont from "./components/PreviewFont.vue";
 import PreviewMarkdown from "./components/PreviewMarkdown.vue";
 import PreviewObject from "./components/PreviewObject.vue";
 import PreviewText from "./components/PreviewText.vue";
+import PreviewBlueprint from "./components/PreviewBlueprint.vue";
 import NotifyRisk from "./components/NotifyRisk.vue";
 import "./index.css";
 
@@ -23,10 +24,10 @@ window.panel.plugin("plain/editor", {
     "k-editor-preview-markdown": PreviewMarkdown,
     "k-editor-preview-object": PreviewObject,
     "k-editor-preview-text": PreviewText,
+    "k-editor-preview-blueprint": PreviewBlueprint,
     "k-file-tree": FileTree,
     "k-editor-notify-risk": NotifyRisk,
   },
-  dialog: {},
   fields: {
     filetree: FileTreeField,
   },

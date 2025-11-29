@@ -15,6 +15,8 @@
   "error.plain.editor.folder.exists": "Der Ordner '{{name}}' existiert nicht",
   "error.plain.editor.loading": "Fehler beim Laden: {{message}}",
   "plain.editor.editor.label": "Editor",
+  "plain.editor.blueprint.label": "Designer",
   "plain.editor.preview.label": "Vorschau",
-  "error.plain.editor.access": "Kein Zugriff"
+  "error.plain.editor.access": "Kein Zugriff",
+  "plain.editor.blueprint.missing": "Um den Blueprint-Editor verwenden zu können, installiere bitte <a href=\"{{link}}\" target=\"_blank\" >die Erweiterung</a>."
 }

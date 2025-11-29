@@ -109,13 +109,13 @@ export default {
       if (this.$helper.object.isObject(components)) {
         //Try get from url query
         componentName ??= new URL(window.location.href).searchParams.get(
-          "preview"
+          "preview",
         );
         //Select first preview
         componentName ??= Object.values(components)[0];
         //Overwrite with current preview
         component = Object.keys(components).find(
-          (key) => components[key] === componentName
+          (key) => components[key] === componentName,
         );
       }
 
@@ -296,7 +296,7 @@ export default {
           draft: this.draft,
           modified: this.modified,
         },
-        this.current.value
+        this.current.value,
       );
     },
   },

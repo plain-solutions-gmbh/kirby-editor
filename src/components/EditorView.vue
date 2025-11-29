@@ -83,12 +83,13 @@ export default {
       window.history.pushState(
         {},
         "",
-        url.pathname + "?" + this.$helper.url.buildQuery(query) + url.hash
+        url.pathname + "?" + this.$helper.url.buildQuery(query) + url.hash,
       );
     },
     onUrlUpdate() {
       //Check if item exists -> Filetree sets the current
       this.$refs.filetree.update();
+      //To set the right preview component
       this.$refs.preview.updatePreview();
       //Set preview selector to the right pointer
       this.$refs.header.updatePreview();
@@ -99,7 +100,7 @@ export default {
       this.current =
         item ??
         (await this.$api.get("plain/editor/get/toArray", {
-          path: "/",
+          path: "",
         }));
     },
     onPreviewSet(componentName) {
@@ -135,7 +136,7 @@ export default {
         const delta = e.clientX - this.startX;
         this.treeWidth = Math.min(
           maxWidth,
-          Math.max(minWidth, this.startWidth + delta)
+          Math.max(minWidth, this.startWidth + delta),
         );
         if (this.$refs?.preview) {
           this.$refs.preview.$emit("resize");

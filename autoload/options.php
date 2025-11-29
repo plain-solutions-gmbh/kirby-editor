@@ -36,7 +36,10 @@ return [
             'component' => 'k-editor-preview-text',
         ],
         'application/x-yaml' => [
-            'component' => 'k-editor-preview-text',
+            'components' => [
+                'k-editor-preview-text' => 'plain.editor.editor',
+                'k-editor-preview-blueprint' => 'plain.editor.blueprint'
+            ],
             'language'  => 'yaml'
         ],
         'image/svg+xml' => [

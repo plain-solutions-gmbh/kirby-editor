@@ -22,12 +22,6 @@ export default {
     viewurl() {
       return this.$panel.view.url();
     },
-    pathFromUrl() {
-      if (this.readPathFromUrl) {
-        return new URL(window.location.href).searchParams.get("path") || "/";
-      }
-      return null;
-    },
   },
   mounted() {
     this.init();
@@ -51,7 +45,7 @@ export default {
     async load(path) {
       return await this.$api.get("plain/editor/tree", {
         path: path ?? "",
-        current: this.current ?? this.pathFromUrl,
+        current: this.current ?? this.getPathFromUrl(),
         onlydir: this.onlydir ? 1 : 0,
       });
     },
@@ -64,15 +58,18 @@ export default {
     },
     update(value) {
       //Try get from query
-      if (this.readPathFromUrl) {
-        value ??= this.pathFromUrl;
-      }
-      value ??= this.current;
+      value ??= this.getPathFromUrl() ?? this.current;
 
       const item = this.findItem(value);
       this.current = item?.value;
 
       this.$emit("update", item);
+    },
+    getPathFromUrl() {
+      if (this.readPathFromUrl) {
+        return new URL(window.location.href).searchParams.get("path") || "/";
+      }
+      return null;
     },
     select(item) {
       this.current = item?.value ?? null;

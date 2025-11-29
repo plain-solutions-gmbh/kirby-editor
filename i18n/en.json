@@ -6,6 +6,7 @@
   "error.plain.editor.file.exists": "The file '{{name}}' doesn't exists",
   "error.plain.editor.loading": "Error while loading: {{message}}",
   "plain.editor.modified": "Last modified",
+  "plain.editor.blueprint.label": "Designer",
   "plain.editor.preview.label": "Preview",
   "plain.editor.editor.label": "Editor",
   "plain.editor.folder.empty": "This folder is empty",
@@ -16,5 +17,6 @@
   "plain.editor.notify.deprecated.submit": "Save anyway",
   "plain.editor.notify.risk.title": "This tool gives you access to the entire Kirby instance.",
   "plain.editor.notify.risk.desc": "Only use it if you know what you're doing!",
-  "plain.editor.notify.risk.submit": "I understand"
+  "plain.editor.notify.risk.submit": "I understand",
+  "plain.editor.blueprint.missing": "To use the Blueprint Editor, please install <a href=\"{{link}}\" target=\"_blank\" >the extension</a>."
 }

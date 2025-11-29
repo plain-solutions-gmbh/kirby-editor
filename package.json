@@ -1,4 +1,5 @@
 {
+  "name": "Kirby Editor",
   "private": true,
   "scripts": {
     "dev": "kirbyup src/index.js --watch",
@@ -9,15 +10,16 @@
     "copy-vs": "node ./src/helper/copy-vs.js"
   },
   "devDependencies": {
-    "eslint": "^7.32.0",
-    "eslint-config-prettier": "^8.3.0",
-    "eslint-plugin-vue": "^9.27.0",
-    "kirbyup": "^0.11.1",
-    "prettier": "^2.4.1"
+    "eslint": "^9.39.1",
+    "eslint-config-prettier": "^10.1.8",
+    "eslint-plugin-vue": "^9.23.0",
+    "kirbyup": "^3.4.1",
+    "prettier": "^3.6.2",
+    "vue-eslint-parser": "^9.4.2"
   },
   "dependencies": {
-    "@guolao/vue-monaco-editor": "^1.5.5",
-    "marked": "^16.2.1",
-    "simple-code-editor": "^2.1.0"
+    "monaco-editor": "^0.55.1",
+    "@monaco-editor/loader": "^1.7.0",
+    "marked": "^17.0.0"
   }
 }

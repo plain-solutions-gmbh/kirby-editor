@@ -46,7 +46,9 @@ export default {
   font-size: 1rem;
   padding: 1.5rem;
   overflow-x: auto;
-  transition: background 0.3s, color 0.3s;
+  transition:
+    background 0.3s,
+    color 0.3s;
 }
 
 /* Dark Mode Variablen */
