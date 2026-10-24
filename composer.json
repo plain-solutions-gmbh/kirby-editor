@@ -3,7 +3,7 @@
     "description": "A fully functional built-in file explorer for Kirby CMS",
     "type": "kirby-plugin",
     "license": "MIT",
-    "homepage": "https://plain-solutions.net/",
+    "homepage": "https://github.com/plain-solutions-gmbh/",
     "version": "1.1.0",
     "authors": [
         {
@@ -16,11 +16,5 @@
     },
     "extra": {
         "title": "Editor"
-    },
-    "funding": [
-        {
-            "type": "PayPal",
-            "url": "https://www.paypal.com/donate/?hosted_button_id=YBXZWG7E6GMZQ"
-        }
-    ]
+    }
 }
